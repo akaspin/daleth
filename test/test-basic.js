@@ -31,6 +31,8 @@ var route = require("../")(
  	{path: "/User", expect: {name:"Fallback", args:[]}},
  	{path: "/User/", expect: {name:"Fallback", args:[]}},
  	{path: "/user/name", expect: {name:"#2", args:["name"]}},
+ 	{path: "/user/name?slug=test", expect: {name:"#2", args:["name"]}},
+ 	{path: "/user/name/?slug=test", expect: {name:"#2", args:["name"]}},
  	{path: "/user/smith", expect: {name:"#2", args:["smith"]}},
  	{path: "/user/name/any", expect: {name:"Fallback", args:[]}},
  	{path: "/user/nam1", expect: {name:"Fallback", args:[]}},

@@ -29,6 +29,18 @@ Usage of *daleth* is very simple:
             handler(request, response, args);
         });
     }).listen(8888);
+
+*daleth* takes set of two-element arrays that contains `regex` and `handler` 
+as arguments and returns "route" function. `Regex` is full JavaScript RegExp
+object that can include "search groups". `Handler` can be any object, not just 
+a function. 
+
+"Route" function takes two arguments: `path` and `callback`. Callback also 
+takes two arguments: routed handler and array of extracted matching search 
+groups. If `path` includes "?" symbol, *daleth* trashes it and all trailing
+path.
+
+ 
     
     
 
