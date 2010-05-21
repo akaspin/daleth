@@ -1,8 +1,8 @@
-# daleth
+# daleth*
 
 Daleth is very simple router. 
 
-In the Phoenician alphabet "Daleth" indicates door.
+*In the Phoenician alphabet "Daleth" indicates door.
 
 ## Usage
 
