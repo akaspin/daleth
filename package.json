@@ -1,0 +1,32 @@
+{
+    "name" : "daleth",
+    "description" : "Simple router for node.js",
+    "version" : "0.1.0",
+    "main" : "./index",
+    "author" : "Alexander Dorofeev",
+    "maintainers" : [
+        {
+            "name" : "Alexander Dorofeev",
+            "email" : "aka.spin@gmail.com"
+        }
+    ],
+    "repository" : {
+        "type" : "git",
+        "url" : "http://github.com/akaspin/daleth.git"
+    },
+    "bugs" : {
+        "web" : "http://github.com/akaspin/daleth/issues"
+    },
+    "directories" : {
+        "test" : "./test"
+    },
+    "scripts" : {
+        "test" : "make test"
+    },
+    "licenses" : [
+        {
+            "type": "MIT",
+            "url": "http://github.com/akaspin/nun/daleth/master/LICENSE"
+        }
+    ]
+}

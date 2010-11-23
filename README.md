@@ -4,6 +4,13 @@ Daleth is very simple router.
 
 *In the Phoenician alphabet "Daleth" indicates door.
 
+## Installation
+
+You can install *daleth* as usual - by copy "daleth" directory in your 
+`~/.node_libraries` or via *npm*
+
+    npm install daleth
+
 ## Usage
 
 Usage of *daleth* is very simple:
