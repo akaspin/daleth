@@ -1,3 +1,4 @@
+[![build status](https://secure.travis-ci.org/akaspin/daleth.png)](http://travis-ci.org/akaspin/daleth)
 # daleth*
 
 Daleth is very simple router. 
